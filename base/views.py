@@ -9,7 +9,6 @@ from .forms import RoomForm
 
 # Create your views here.
 
-
 def loginPage(request):
     if request.method == 'POST':
         username = request.POST.get('username')
